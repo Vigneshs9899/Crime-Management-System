@@ -1,8 +1,13 @@
+import matplotlib
+matplotlib.use('Agg')
+
 from tkinter import *
 from tkinter import ttk
 from PIL import Image,ImageTk
 import mysql.connector
-from tkinter import messagebox
+from tkinter import messagebox 
+
+
 
 
 
